@@ -1,0 +1,60 @@
+#ogólne ustawienia
+RESOLUTION: [800, 600]
+FULL_SCR: TRUE
+ALLOW_GUI: TRUE
+BACK_COLOR: grey
+UNITS: height
+USED_KEYS: ["z","x","n","m"]
+FILE_TITLE: wyniki_eksperymentu.csv
+
+#nazwy danych zapisywanych w pliku
+SAVED: ["Identyfikator", "Wiek", "Płeć", "Numer próby" ,"Typ zadania", "Historia Naciśnięć", 
+        "Zatwierdzone Klawisze","Historia Wartośći Logicnzych","Zatwierdozne Wartości Logiczne","Czas Reakcji"]
+
+# kolory kart
+WHITE_CARD_COLOR: white
+GREY_CARD_COLOR: [0.6,0.6,0.6]
+
+#ogólne ustawienia tekstu
+TEXT_COLOR: white
+TEXT_HEIGHT: 0.04
+
+# ustawniania tekstu czekajcego na karty
+TEXT_WAIT: Po przezczytaniu opisu kliknij spację by zobaczyć karty.
+#ogólny kolor
+TEXT_WAIT_Y: -0.1
+#ogólna wielkość
+
+
+# ustawienia tekstu czekajcego na zatwierdzenie
+TEXT_CONFI: Kliknij spację by zatwierdzić wybrane karty.
+#ogólny kolor
+TEXT_CONFI_Y: -0.44
+#ogólna wielkość
+
+# ustawienia tekstów opisowych
+#trials
+#ogólny kolor
+TEXT_DES_Y: 0.3
+
+# ustawnienia liter nad kartach
+#trials
+TEXT_OVER_COLOR: black
+TEXT_OVER_Y: 0.03
+TEXT_OVER_HEIGHT: 0.05
+
+# ustawienia tekstów na kartach
+#trials
+TEXT_CARD_COLOR: black
+TEXT_CARD_Y: -0.2
+TEXT_CARD_HEIGHT: 0.03
+
+# ustawinia tekstu wprowadzajcego i żegnajcego
+TEXT_INTRO: Twoim zadaniem będzie rozwiązanie kilku zagadek logicznych opartych na teście selekcji Wasona.
+ No górze ekranu pojawiać się będzie opis danego zadania, a na dole 4 karty. Odpowiadać będziesz przez ich wybieranie.
+ By wskazać kartę, naciśnij klawisz odpowiadający literze nad daną kartą. Żeby wycofać wybranie danej karty
+ naciśnij klawisz jeszcze raz. By przejść dalej wciśnij spację.
+TEXT_OUTRO: Dziękujemy za udział :)
+#ogólny kolor
+TEXT_TRO_Y: 0.0
+#ogólna wielkość

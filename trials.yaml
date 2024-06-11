@@ -1,0 +1,50 @@
+# opisy zadań
+TRIAL_DESCRIPTIONS: [
+  "Każda z przedstawiony kart ma literę po jednej stronie i liczbę po drugiej. Twoim zadaniem jest zdecydować które z kart musisz odwrócić by dowiedzieć się czy następna zasada jest przestrzegana. Brzmi ona „jeśli karta ma A po jednej stronie to po drugiej musi mieć 4” Wskaż tylko i wyłącznie te karty, które trzeba odwrócić, aby być pewnym przestrzegania zasady, nie więcej.",
+  "Wyobraź sobie, że jesteś rodzicem, który ma pewną umowę ze swoimi dziećmi. Brzmi ona: “Jeśli pożyczasz samochód musisz go potem zatankować”. Pewnego dnia uznajesz że musisz sprawdzić czy umowa jest przestrzegana. Karty poniżej przedstawiają czwórkę twoich dzieci. Po jednej stronie napisane jest czy dziecko pożyczyło auto, a po drugiej czy je zatankowało. Wskaż tylko i wyłącznie te karty, które trzeba odwrócić, aby być pewnym przestrzegania umowy.",
+  "Wyobraź sobie, że jesteś policjantem sprawdzającym przestrzeganie prawa w barach. Sprawdzasz ludzi na podstawie zasady “jeśli ktoś pije alkohol, musi mieć conajmniej 18 lat”. Karty poniżej przedstawiają informacje na temat 4 osób siedzących przy stoliku. Każda karta przedstawia jedną osobę, jedna strona karty mówi co dana osoba pije, a druga ile ma lat. Wskaż tylko i wyłącznie te karty, które trzeba odwrócić, aby być pewnym przestrzegania prawa",
+  'Wyobraź sobie, że pracujesz w sekretariacie w szkole. Jednym z twoich obowiązków jest sprawdzanie czy dokumenty są dobrze oznaczone według reguły “jeśli dany uczeń jest w klasie “C” jego dokument powinien mieć kategorię “3”". Podejrzewasz, że poprzedni pracownik nie przykładał się do pracy. Każda karta przedstawia jeden dokument. Jedna strona karty pokazuje klasę ucznia, a druga kategorię dokumentu. Wskaż tylko i wyłącznie te karty, które trzeba odwrócić, aby być pewnym przestrzegania reguły.',
+  "Wyobraź sobie, że podczas studiów wynajmujesz mieszkanie z czterema innymi studentami. By zapobiec stosom nieumytych naczyń umówiliście się, że “jeśli ktoś brudzi jakieś naczynie, musi je potem umyć”. Pewnego dnia uznajesz, że chcesz się upewnić czy inni przestrzegają umowy. Każda karta przedstawia jedną osobę i co robiła tego dnia w kwestii naczyń. Jedna strona przedstawia czy używała jakiegoś naczynia, a druga czy umyła to naczynie. Wskaż tylko i wyłącznie te karty, które trzeba odwrócić, aby być pewnym przestrzegania umowy.",
+  "Każda z przedstawionych kart ma liczbę rzymską po jednej stronie i kształt po drugiej. Twoim zadaniem jest zdecydować, które z kart musisz odwrócić by dowiedzieć się czy następna zasada jest przestrzegana. Brzmi ona „jeśli karta ma rzymską liczbę “V” po jednej stronie, to po drugiej musi mieć kwadrat” Wskaż tylko i wyłącznie te karty, które trzeba odwrócić, aby być pewnym przestrzegania zasady.",
+  "Wyobraź sobie, że stoją przed tobą 4 pary pudełek, w każdej parze jedno pudełko jest ustawione na drugim. W każdym górnym pudełku jest owoc, a w każdym dolnym napój. Powiedziano ci że masz sprawdzić czy te pudełka są zgodne też z inną zasadą która brzmi “jeśli w górnym pudełku jest banan, to w dolnym musi być sok malinowy”. Każda karta przedstawia jedną parę pudełek. Jedna strona pokazuje co jest w górnym pudełku, a druga co jest w dolnym. Wskaż tylko i wyłącznie te karty, które trzeba odwrócić, aby być pewnym przestrzegania zasady.",
+  "Wyobraź sobie, że jesteś lekarzem odpowiadającym za przydzielanie leków przychodzącym do ciebie pacjentom. Każdego pacjenta możesz określić jako chorego lub zdrowego. Jeśli pacjent jest zdrowy, to nie wolno mu brać leków. Poniższe karty reprezentują twoich pacjentów. Wskaż tylko i wyłącznie te karty, które należy odwrócić, aby upewnić się, że nikt nie łamie tej zasady.",
+  "Wyobraź sobie, że jesteś policjantem dbającym o bezpieczeństwo ruchu drogowego, a twoim zadaniem jest sprawdzenie czy osoby poruszające się ciężarówkami mają prawo jazdy odpowiedniej kategorii. Osoby poruszające się ciężarówkami muszą posiadać prawo jazdy kategorii “B” oraz “C”, natomiast osobom poruszającym się samochodem osobowym wystarczy prawo jazdy kategorii “B”. Poniższe karty reprezentują osoby, które sprawdzasz podczas kontroli drogowej. Wskaż tylko i wyłącznie te karty, które należy odwrócić, aby być pewnym przestrzegania kodeksu ruchu drogowego.",
+  "Wyobraź sobie, że na świecie zaczęło funkcjonować prawo “Jeśli ktoś posiada kota, musi ubierać się w ubrania koloru czerwonego”. Poniższe karty przedstawiają po jednej stronie kolor ubrania osoby, a po drugiej jakie zwierzę posiada. Wskaż tylko i wyłącznie te karty, które trzeba odwrócić, aby być pewnym przestrzegania prawa.",
+  "Każda z przedstawionych kart ma z przodu liczbę, a na odwrocie przedstawia kolor.,
+   Twoim zadaniem jest zdecydować, które z kart musisz odwrócić by dowiedzieć się czy następna zasada jest przestrzegana. Brzmi ona „jeśli karta ma liczbę mniejszą od 5 po jednej stronie, to po drugiej ma słowo niebieski” Wskaż tylko i wyłącznie te karty, które trzeba odwrócić, aby być pewnym przestrzegania zasady."
+]
+
+
+# napisy na kartach
+CARDS_LIST: [
+   ["A", "K", "4", "7"],
+   ["Nie pożyczyło auta", "Pożyczyło auto", "Zatankowało", "Nie zatankowało"],
+   ["ma 23 lata", "ma 17 lat", "pije piwo", "pije oranżadę"],
+   ["klasa A", "kategoria 3", "klasa C", "kategoria 11"],
+   ["nie mył naczyń", "mył naczynia", "używał naczyń", "nie używał naczyń"],
+   ["gwiazda", "II", "V", "kwadrat"],
+   ["banan", "gruszka", "sok malinowy", "woda"],
+   ["chory", "zdrowy", "bierze leki", "nie bierze leków"],
+   ["posiada prawo jazdy kategorii “B” oraz “C”", "porusza się ciężarówką", "posiada prawo jazdy kategorii “B”",
+    "porusza się samochodem osobowym"],
+   ["pies", "czerwone ubrania", "zielone ubrania", "kot"],
+   ["7", "3", "żółty", "niebieski"]
+]
+
+# klucz wartości logicznych
+TRANSLATOR: [
+   [1,2,3,4],
+   [2,1,3,4],
+   [4,3,1,2],
+   [2,3,1,4],
+   [4,3,1,2],
+   [4,2,1,3],
+   [1,2,3,4],
+   [2,1,4,3],
+   [3,1,4,2],
+   [2,3,4,1],
+   [2,1,4,3]
+]
+
+# typ zadania
+TRIAL_TYPE: ["0", "1", "1", "0", "1", "0", "0", "1", "1", "1", "0"]
